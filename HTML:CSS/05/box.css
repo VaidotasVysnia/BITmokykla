@@ -1,0 +1,33 @@
+body {
+    background-color: honeydew;
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.box {
+    border: 3px solid hotpink;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 0px;
+    height: 100px;
+    width: 33.333333%;
+}
+.box span{
+    background-color: lightpink;
+    display: block;
+    width: 30%;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: calc(50% - 10px);
+}

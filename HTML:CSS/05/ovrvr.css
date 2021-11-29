@@ -1,0 +1,23 @@
+body {
+    background-color: lightgreen; 
+}
+h2{
+    color: darkred;
+}
+.tb{
+    color: deepskyblue;
+}
+.tb span{
+    color: forestgreen;
+}
+h2.ta span{
+    color: hotpink;
+}
+#a1{
+    background-color: khaki;
+    color: magenta;
+}
+.tc {
+    border: 2px solid gray;
+    background-color: mediumspringgreen;
+}

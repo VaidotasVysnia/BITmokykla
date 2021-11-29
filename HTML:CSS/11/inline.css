@@ -1,0 +1,21 @@
+body {
+    background-color: lightgrey;
+}
+.row {
+    letter-spacing: -.31em;
+}
+h2 {
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    background-color: lightskyblue;
+    letter-spacing: normal;
+    vertical-align: top;
+    width: 33.3333333%;
+}
+div p {
+    /* max-width: 250px; */
+    padding: 10px;
+    text-align: justify;
+}

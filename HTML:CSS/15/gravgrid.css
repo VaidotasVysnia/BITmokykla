@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box;
+    background-color: white;
+}
+h1 {
+    margin: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.nav {
+position: static;
+margin: 20px;
+margin-bottom: 40px;
+height: 111px;
+}
+nav {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+nav ul {
+    padding: 25px;
+}
+nav ul li {
+    display: inline-block;
+    float: left;
+    margin: 4px;
+    background-color: gray;
+    width: 24%;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+nav ul li:hover {
+    background-color: thistle;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+div::after {
+        content: "";
+        display: table;
+        clear: both;
+}
+.container {
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+.row {
+    display: block;
+    margin: 8px;
+}
+.row div {
+    float: left;
+}
+.box {
+    margin: 2px;
+}
+.B50 {
+    width: 50%;
+}
+.B33 {
+    width: 33.33%;
+}
+.B25 {
+    width: 25%;
+}
+.B100 {
+    width: 100%;
+}
+.imgcont {
+    margin: 8px;
+}
+.arrow {
+position: fixed;
+bottom: 50px;
+right: 50px;
+width: 50px;
+height: 50px;
+float: right;
+}
+.arrow img {
+    background-color: gray;
+    opacity: 0.8;
+}

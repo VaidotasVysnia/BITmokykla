@@ -1,0 +1,31 @@
+.box {
+    display: inline-block;
+    width: 33.3333%;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+.box::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.b1 {
+    background-color: yellow;
+}
+.b3 {
+    background-color: red;
+}
+@media screen and (max-width: 1000px){
+    .b1, .b2 {
+        width: 50%;
+    }
+    .b3 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .b1, .b2, .b3 {
+        width: 100%;
+    }
+}

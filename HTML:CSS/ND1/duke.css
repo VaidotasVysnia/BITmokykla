@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.topBox {
+  height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 0 30px;
+  background-color: #000000;
+}
+
+.topBox .topBox1, .topBox .topBox2, .topBox .topBox3 {
+  display: inline-block;
+  width: 33%;
+  height: 100%;
+  background-color: gray;
+}
+/*# sourceMappingURL=duke.css.map */

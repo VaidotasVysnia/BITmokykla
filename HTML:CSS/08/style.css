@@ -1,0 +1,16 @@
+.op {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transition: all .4s;
+}
+.op:hover{
+    background-color: darkcyan;
+}
+.parent p:first-child{
+    background-color: darksalmon;
+}
+.parent p:last-child{
+    background-color: lightcoral;
+
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: lightgrey;
+}
+p {
+    color: yellow;
+}
+p:first-child{
+    color: blue;
+}
+p:last-child{
+    color: red;
+}
+li {
+    color: brown;
+}
+li:first-child{
+    color: black;
+}
+li:last-child {
+    display: none;
+}
+h1 p:first-child {
+    color: green;
+}
+/* div:first-child {
+    background-color: lavender;
+} */
+body > div {
+    background-color: salmon;
+}
+div ~ p {     
+    background-color: springgreen;
+    color: red;
+}
+div:nth-child(3) {
+    color: yellow;
+}
+div p:nth-child(even) {
+    border: 2px solid black
+}
+div p:nth-child(odd) {
+    border: 2px solid gray
+}

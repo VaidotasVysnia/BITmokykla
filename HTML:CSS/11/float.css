@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+}
+img {
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+p {
+    text-align: justify;
+    /* display: inline-block;
+    width: 50%; */
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.grav1 {
+    float: left;
+}
+.grav2 {
+    float: right;
+}

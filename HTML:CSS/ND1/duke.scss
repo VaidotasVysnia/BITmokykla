@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+.topBox{
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    padding left: 30px;
+    padding right: 30px;
+    background-color: #000000;
+    .topBox1, .topBox2, .topBox3 {
+        display: inline-block;
+        width: 33%;
+        height: 100%;
+        background-color: gray;
+    }
+}

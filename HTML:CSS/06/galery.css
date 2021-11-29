@@ -1,0 +1,109 @@
+body {
+    background-color: cornsilk;
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+    margin: 0;
+}
+h1 {
+    box-sizing: border-box;
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lentele {
+margin: 30px;
+}
+.foto {
+    display: inline;
+    height: 200px;
+    position: relative;
+}
+.nr1 div {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    /* border-style: solid ;
+    border-left: none; */
+}
+.nr2 div {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33.333%;
+    height: auto;
+    /* border-style: solid; */
+    border-top: none;
+}
+.nr3 div {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    /* border-style: solid; */
+    border-top: none;
+}
+.nr4 div {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    /* border-style: solid; */
+    border-top: none;
+}
+img {
+    position: relative;
+    max-width: 90%;
+    max-height: 100%;
+    height: 150px;
+    margin: 5px;
+}
+.trecia {
+    border-left: none;
+}
+span {
+    display: block;
+    text-align: center;
+}
+.foto {
+    border-style: solid;
+}
+.antra {
+    border-left: none;
+}
+.ketvirta {
+    border-left: none;
+}
+.penkta {
+    border-left: none;
+}
+.septinta {
+    border-left: none;
+}
+.astunta {
+    border-left: none;
+}
+.devinta {
+    border-left: none;
+}
+.title {
+    position: absolute;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-rendering: auto;
+    border: 3px solid #73AD21;
+    bottom: 40px;
+}
+a {
+    position: relative;
+    text-decoration: none;
+}
+/* .uzrasas {
+    display: block;
+    position: absolute;
+} */
+

@@ -1,0 +1,69 @@
+.navigator {
+    padding: 20px;
+    background-color: bisque;
+}
+.navigator a {
+    color: cadetblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.navigator a:hover {
+    color: darkgoldenrod;
+}
+.navigator > a {
+    color: deeppink;
+}
+.navigator > a:hover {
+    color: rgb(112, 3, 61);
+}
+.navigator ~ a {
+    color: yellowgreen;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.navigator ~ a:hover {
+    color: rgb(53, 77, 5);
+}
+.navigator + a {
+    color: rosybrown;
+
+}
+.navigator + a:hover {
+    color: rgb(54, 33, 33);
+}
+[target] {
+    font-weight: bold;
+}
+[target=_top] {
+    background-color: lightblue;
+}
+[title] {
+    background-color: gray;
+}
+[title="Eiti i Afrika"] {
+    background-color: rgb(65, 60, 60);
+}
+/* /ieskome atskiru zodziu */
+[title~="Eiti"] {
+    background-color: rgb(65, 60, 60);
+}
+/* /ieskome tam tikru raidziu kombinaciju */
+[title~="*ti"] {
+    background-color: rgb(65, 60, 60);
+}
+/* rodo i strukturos pabaiga */
+[title$="*ti"] {
+    background-color: rgb(65, 60, 60);
+} 
+/* rodo i pradzia */
+[title^="*ti"] {
+    background-color: rgb(65, 60, 60);
+} 
+/* rodo i pradzia */
+[title|="*ti"] {
+    background-color: rgb(65, 60, 60);
+} 
