@@ -1,0 +1,24 @@
+{
+  "name": "BITmokykla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaidotasVysnia/BITmokykla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaidotasVysnia/BITmokykla/issues"
+  },
+  "homepage": "https://github.com/VaidotasVysnia/BITmokykla#readme"
+}
