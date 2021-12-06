@@ -63,7 +63,6 @@ img {
   transition: all 0.4s;
 }
 
-
 .r1svg path:hover {
   fill: red;
 }

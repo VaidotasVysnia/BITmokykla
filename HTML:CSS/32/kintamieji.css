@@ -1,0 +1,43 @@
+:root {
+    --blue: blue;
+    --yellow: yellow;
+
+    --kin1: 35px;
+    --kin2: 25px;
+    --kin3: 15px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+}
+.bin {
+    width: 33.33333%;
+    height: 150px;
+    /* background-color: aquamarine; */
+    background-color: var(--yellow);
+}
+.bin + .bin {
+    /* background-color: cadetblue; */
+    background-color: var(--blue, red);
+}
+.bin + .bin + .bin{
+    background-color: darkseagreen;
+    background-color: var(--red, red);
+}
+h1 {
+    font-size: var(--kin1);
+}
+h1 span {
+    font-size: var(--kin2);
+}
+h2 {
+    font-size: var(--kin3);
+}
