@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+section {
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px;
+}
+.container {
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid lightgray;
+}
+/* attr(name) */
+
+[for=Labas]::after {
+    content: attr(data-label-text);
+    display: inline block;
+    margin-left: 10px;
+}
+/* calc() */
+#calc-use {
+    display: flex;
+}
+#calc-use1 {
+    height: 20px;
+    background-color: lightgreen;
+    width: calc(100vh - 80%);
+}
+#calc-use2 {
+    height: 20px;
+    background-color: lightsteelblue;
+    width: calc(100% - 80vh);
+}
+/* cubic-bezier() */
+#bezier {
+    display: flex;
+    position: relative;
+    height: 100px;
+}
+#cubic {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: mediumpurple;
+    transition: left 2s;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+#go {
+    margin-bottom: 10px;
+    cursor: crosshair;
+    color: navy;
+    border: 1px solid lightslategrey;
+    display: inline-block;
+}
+#go:hover + #bezier #cubic{
+    left: calc(100% - 100px);
+    right: 0
+}
+
+/* rgb() hsl() */
+#rgb, #hsl {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+#rgb {
+    background-color: rgb(205, 230, 255);
+}
+#hsl {
+    background-color: hsl(175, 53%, 70%);
+}
+
+/* rgba() hsla() */
+#rgba, #hsla {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+#back {
+    padding: 15px;
+    background-image: url(hero_slide.jpeg);
+    background-position: center;
+    background-size: contain;
+
+}
+#rgba {
+    background-color: rgb(205, 230, 255, 0.3);
+}
+#hsla {
+    background-color: hsl(175, 53%, 70%, 0.8);
+}

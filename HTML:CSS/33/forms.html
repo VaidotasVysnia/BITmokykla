@@ -10,21 +10,83 @@
 <body>
    
     <div class="container">
+
 <form action="">
 
-
-<input type="text" name="tekstas">
+<input type="text" name="tekstas" value="prifilinta reiksme" readonly>
+<input type="text" name="tekstas2" placeholder="Tekstas II" maxlength="4">
 <input type="password" name="slaptai">
+<input type="email" name="email" required>
+<input type="number" name="skaicius" >
+<!-- <input type="file" name="paveiksliukas"> -->
+<input type="file" class="custom-file-input">
+<input type="reset" value="trintukas" disabled>
 
-<input type="submit" name="mygtukas">
-
-
+<input type="submit" name="mygtukas" value="Submitas" >
 </form>
 
+<textarea name="" id="" cols="30" rows="10" placeholder="Tekstas II"></textarea>
 
+<fieldset>
+    <legend>Radijo mygtukai</legend>
+    <label for="p">Pingvinas</label>
+    <input type="radio" name="radijo" id="p" checked>
+    <label for="p">Tigras</label>
+    <input type="radio" name="radijo" id="p">
+    <label for="p">Zirafa</label>
+    <input type="radio" name="radijo" id="z">
+    <label for="p">Bezdzione</label>
+    <input type="radio" name="radijo" id="b">
+</fieldset>
+
+<fieldset>
+    <legend>Check Boksai</legend>
+        <label for="E">Eglutė</label>
+        <input type="checkbox" name="Egle" id="E">
+        <label for="B">Berzelis</label>
+        <input type="checkbox" name="Berzasa" id="B">
+        <label for="L">Liepaite</label>
+        <input type="checkbox" name="Liepa" id="L">
+        <label for="A">Ąžuolas</label>
+        <input type="checkbox" name="Azuolas" id="A">
+</fieldset>
+
+<fieldset>
+    <legend>Selektas</legend>
+        <select name="Darzoves" id="">
+            <option value="0" selected disabled>Pasirink darzove</option>
+            <option value="M">Morka</option>
+            <option value="B">Bulve</option>
+            <option value="A">Agurkas</option>
+            <option value="K">Kopustas</option>
+        </select>
+
+        <select name="Vaisiai" multiple>
+            <option value="0" selected disabled>Pasirink vaisiu</option>
+            <option value="o">Obuolys</option>
+            <option value="k">Kriause</option>
+            <option value="ap">Apelsinas</option>
+            <option value="m">Mandarinas</option>
+        </select>
+
+</fieldset>
+    </div>
+
+    <div class="container" class="nenaudojami">
+<fieldset>
+    <legend>Nenaudojami</legend>
+        <input type="search" name="Paieska">
+        <input type="range" name="range" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="color" name="" id="">
+    </fieldset>
+            
+    
+    </div>
 
     </div>
 
+    
 
 </body>
 </html>

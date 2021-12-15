@@ -1,0 +1,4 @@
+#symbol::after {
+    display: block;
+    content: '\00A9';
+}

@@ -1,0 +1,78 @@
+@import url("reset.css");
+@import url("grid.css");
+
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+}
+// ===================== HEADER (R1) ========================
+
+.header {
+    height: 100px;
+    .r1 {
+        float: left;
+        padding: 40px 20px 40px 50px;    
+        h1 {
+            color: black;
+            font-size: 22px;
+        }
+        ul{           
+            li {
+                float: right;
+                a {              
+                    padding: 0 10px 0 10px;
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.r1:first-child {
+    width: 50%;
+}
+.r1:last-child {
+    width: 50%;
+}
+div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+// ===================== HEADER END ========================
+
+
+
+
+// ===================== FOOTER ============================
+.footer {
+    position: relative;
+    background-color: #f7f7f7;
+    margin: 0 20px 0 20px;
+    height: 400px;
+    .ftr-cont {
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        .ftr {
+            margin: 20px;
+            h3 {
+                margin: 20px;
+            }
+        }
+        h2 {
+            font-size: 40px;
+        }
+
+    }
+
+}

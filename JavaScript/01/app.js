@@ -29,11 +29,11 @@ console.log(b);
 
 var g = 3;
 
-console.log("**", d ** g);
+console.log("**", d ** g); //kelimas laipsniu
 
-console.log('%', 15%2);
+console.log('%', 15%2); //dalyba su liekana
 
-console.log('++', d++);
+console.log('++', d++); 
 console.log(d);
 
 console.log('g', g++ + ++g);
@@ -43,7 +43,7 @@ g=2
 // g +=7;
 g-=7;
 
-console.log('g+=', g );
+console.log('g+=', g ); //
 
 document.querySelector('h2').innerHTML = g;
 
@@ -58,4 +58,9 @@ var l = 7;
 var m = '7';
 
 console.log(l+m);
+
+console.log(l++ +1);
+console.log(l);
+
+
 
