@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="photo/angellist.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&family=Open+Sans+Condensed:wght@300;700&family=Oswald:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="portstyle.css">
+<script src="https://kit.fontawesome.com/8dfec9c070.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="portstyle.css">
     <title>Prisistatymas</title>
 </head>
 <body>
@@ -15,14 +17,14 @@
     <!-- pasidaryti puslapi su https://tailwindcss.com/ -->
     <!-- parallax ant nuotrauku uzdeti -->
 <!-- ================================== HEADER ============================== -->
-<div class="header">
+<div id="main" class="header">
     <div class="r1 r1-1">
         <a href=""><h1>VAIDOTAS VYŠNIAUSKAS</h1></a>
     </div>
     <div class="r1 r1-2">
         <nav>
             <ul>
-                <li><a href="">Contacts</a></li>
+                <li><a href="#contacts">Contacts</a></li>
                 <li><a href="">Skills</a></li>
                 <li><a href="">Education</a></li>
                 <li><a href="">Experience</a></li>
@@ -31,9 +33,45 @@
     </div>
 </div>
 <!-- ================================== HEADER END============================== -->
+
+<!-- ================================== PARALAX PICTURE ============================== -->
+<div class="prlx">
+    <div class="prlx-inside">
+        <h2 class="prlx2">VAIDAS PROGRAMUOJA</h2>
+        <h4>Cia bu parasytas  mano gyvenimo sukis</h4>
+    </div>
+</div>
+
+
+<!-- ================================== PARALAX PICTURE ============================== -->
+<!-- ================================== MAIN INFO ==================================== -->
+<div class="container">
+    <div class="exp"></div>
+    <div class="edu"></div>
+    <div class="skl"></div>
+</div>
+<!-- ================================== MAIN INFO ==================================== -->
 <br><br><br>
-<hr>
-<br><br><br>
+<!-- ================================== GRID CONTAINER ============================== -->
+<!-- <div class="grid-container">
+<div class="row r1">
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+</div>
+<div class="row r2">
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+</div>
+<div class="row r3">
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+    <div class="img-cont sm-1 md-1-2 lg-1-3"><img src="photo/gr1.jpeg" alt=""></div>
+</div>
+
+</div> -->
+<!-- ================================== GRID CONTAINER ============================== -->
 <!-- ================================== FOOTER ============================== -->
 <div class="footer">
     <div class="ftr-cont">
@@ -43,13 +81,23 @@
         <div class="ftr ftr2">
             <h3>vaidotasvysnia@gmail.com</h3>
             <h3>+370 678 67 696</h3>
-        <div class="ftr ftr3">
-            ikonos
-            <i class="fa-brands fa-facebook-f"></i>
+        <div id="contacts" class="ftr ftr3">
+            <a href="https://www.facebook.com/profile.php?id=629011311"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/vaidasvysnia/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/vaidotas-vysnia-135819211/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/VaidotasVysnia"><i class="fab fa-github"></i></a>
+
+            
         </div>
         </div>
     </div>
 </div>
 <!-- ================================== FOOTER ============================== -->
+<!-- ================================== Arrow ============================== -->
+</div>
+<div class="arrow">
+    <a href="#main"><img src="photo/arr.svg" alt="arrow"></a>
+    <!-- ================================== Arrow ============================== -->
+</div>
 </body>
 </html>
