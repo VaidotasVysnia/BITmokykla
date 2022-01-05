@@ -332,3 +332,190 @@ sukimai = sukimai + rand9;
 
 console.log('isoriniai ciklai= ', i);
 console.log('vidiniai ciklai= ', sukimai);
+
+console.log('////////////////////////////////////////////////////');
+console.log('-------------------LOOPS BASIC-------------------');
+console.log('-----1.A-----');
+
+var aa = rand(5, 25), bb = rand(5, 25), cc = rand(5, 25);
+var atsats;
+var strstr = '';
+var sumasuma = aa+bb+cc;
+
+atsats = aa+bb+cc;
+console.log(atsats);
+strstr += aa + ' ';
+strstr += bb  + ' ';
+strstr += cc;
+
+console.log(strstr);
+var strstr2 = String (strstr) + String (' ') +String (sumasuma);
+console.log(strstr2);
+console.log('-----2-----');
+var rndrnd = rand(5, 10);
+console.log(rndrnd);
+console.log('-----3-----');
+
+var labaslabas = ''
+for (let i = 0; i < 5; i++) {
+    labaslabas += 'Labas '
+}
+console.log(labaslabas);
+console.log('------4----');
+for (let i = 0; i < 7; i++) {
+    console.log(rndrnd);
+    
+}
+console.log('------5----');
+
+var i = 0
+do {
+    
+console.log(rndrnd);
+i++
+} while ( i < rndrnd);
+
+console.log('------6----');
+i = 0
+if ( rndrnd >7) {
+    do {
+    
+        console.log(rndrnd);
+        i++
+        } while ( i < rndrnd);
+} else {
+    console.log('mazesnis arba lygus 7');
+}
+
+console.log('------7----');
+
+var aaa;
+var bbb = 0;
+var ccc = '';
+
+for (let i= 0; i < 5; i++) {
+    
+    console.log(aaa = rand (10, 20));
+    bbb += aaa;
+    if (i != 0) {
+        
+        ccc += ',';
+    }
+    ccc += aaa;
+}
+console.log('------7a----');
+console.log(aaa);
+console.log('------7b----');
+console.log(bbb);
+console.log('------7c----');
+console.log(ccc);
+console.log('------7d----');
+ccc = String (ccc) + String(' = ') + String(bbb);
+console.log(ccc);
+
+console.log('------8----');
+
+var aaa8;
+var sumsum8 = 0;
+var atmesta8 = 0
+var lyg8 = 0;
+var nel8 = 0;
+
+do {
+    aaa8 = rand(10, 25);
+    console.log(aaa8);
+    if (aaa8 < 18) {
+        sumsum8 += aaa8;
+    } else {
+        atmesta8++
+    }
+
+    if (aaa8 % 2 == 0) {
+        lyg8++
+    } else {
+        nel8++
+    }
+} while (aaa8 > 12);
+console.log('suma iki 18=', sumsum8);
+console.log('atmesta: ', atmesta8);
+console.log('Lyginiai: ', lyg8);
+console.log('Nelyginiai: ', nel8);
+
+console.log('------9----');
+
+var aaa9;
+var isor9 = 0;
+var vid9 = 0;
+
+
+while (aaa9 !=5) {
+    aaa9 = rand(5, 10)
+    console.log(aaa9);
+    
+    
+    for (let index = 0; index < aaa9; index++) {
+        vid9++;
+        
+    }
+    isor9++
+    
+}
+
+console.log('Isorinis: ', isor9);
+console.log('Vidinis: ', vid9);
+console.log('------9b----');
+
+var aaa91;
+var isor91 = 0;
+var vid91 = 0;
+var trys5 = 0;
+
+do {
+    aaa91 = rand(5, 10)
+    console.log(aaa91);
+    isor91++
+for (let index = 0; index < aaa91; index++) {
+    vid91++;
+    
+}
+if (aaa91 == 5) {
+    trys5++
+}
+
+} while (trys5 < 3);
+
+
+
+console.log('Isorinis: ', isor91);
+console.log('Vidinis: ', vid91);
+
+console.log('------------- BINGO----------');
+
+// Kazys ir Petras žaidžiai bingo. 
+// Petras per vieną partiją surenka taškų kiekį nuo 10 iki 20, 
+// Kazys - surenka taškų kiekį nuo 5 iki 25. 
+// Console.log išvesti žaidėjų vardus su taškų kiekiu ir “Partiją laimėjo:  
+// laimėtojo vardas”. Taškų kiekį generuokite funkcija rand().  
+// Žaidimą laimi tas, kas greičiau surenka 222 taškus.  
+// Partijas kartokite tol, kol kažkuris žaidėjas pirmas surenks 222 arba daugiau taškų.
+
+var kaziukas = 0;
+var petriukas = 0;
+var kaziukassuma = 0;
+var petriukassuma = 0;
+
+do {
+    kaziukas = rand (10, 20);
+    petriukas = rand (5, 25);
+    kaziukassuma += kaziukas;
+    petriukassuma += petriukas;
+    console.log('Kazys: ', kaziukas, 'Suma= ', kaziukassuma);
+    console.log('Petras: ', petriukas, 'Suma= ', petriukassuma);
+
+} while (kaziukassuma < 222 && petriukassuma < 222);
+
+if (kaziukassuma > petriukassuma) {
+    console.log('Laimejo Kazys');
+} else {
+    console.log('Laimejo Petras');
+}

@@ -100,3 +100,55 @@ console.log(suma);
 
 console.log('--C.--');
 // // skaiciai mazesni nei 30 turi buti surasyti i atskita eilute
+
+
+console.log('----------------------------');
+//Sugeneruoti 21 atsitiktini skaiciu nuo 10 iki 99 ir suli pinti juos i viena stringa.
+//skaicius atskirti kableliais, po paskutinio kablelio nera
+
+var atsak = '';
+
+for (let a = 0; a < 21; a++) {
+
+if (a !==0 ) {
+    atsak += ','
+}
+
+
+    atsak += rand (10, 99)
+}
+console.log(atsak);
+// //kol ju suma nebus didesne nei 250
+
+
+let atsakymas = '';
+let suma6 = 0;
+let skaicius6 = 0;
+let iki30 = '';
+let virs30 = '';
+
+
+do {
+    if (atsakymas != '') {
+        atsakymas +=', ';
+    }
+    skaicius6 = rand (1, 50);
+    suma6 += skaicius6;
+    atsakymas += skaicius6;
+    if (skaicius6 <= 30) {
+        if (iki30 != '') {
+            iki30 +=', ';
+        }
+        iki30 += skaicius6;
+    }
+    else {
+        if (virs30 != '') {
+            virs30 +=', ';
+        }
+        virs30 += skaicius6;
+    }
+} while (suma6 < 250);
+console.log(atsakymas);
+console.log(suma6);
+console.log(iki30);
+console.log(virs30);

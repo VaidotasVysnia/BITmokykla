@@ -1,2 +1,8 @@
 01 kintamuju tipai, matematiniai veiksmai
 02 
+03
+04
+05
+06
+07 'break', 'continue', 'swich'. (Omniva pavyzdys)
+08 Array (masyvai)
