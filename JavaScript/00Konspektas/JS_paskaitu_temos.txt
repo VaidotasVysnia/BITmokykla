@@ -6,3 +6,10 @@
 06
 07 'break', 'continue', 'swich'. (Omniva pavyzdys)
 08 Array (masyvai)
+09
+10
+11
+12
+13
+14
+15 JS klases, DOM pradzia

@@ -63,3 +63,38 @@ for ( let i in obj) {
 
 };
 
+console.log('-------OBJEKTAI IR JU SAVYBES----------');
+
+const A = 'As esu stringas';
+
+const B = new String('As irgi esu stringas');
+
+
+
+console.log(A, typeof A, A.length);
+console.log(B, typeof B, B.length, B.indexOf('i'));
+
+let V1 = '*** ' + A + ' ***';
+let V2 = `*** ${A} ***`;
+
+
+console.log(V1);
+console.log(V2);
+////////////////////////////////////////////////////////////////////
+console.log('-----------OBJEKTAI (kartojimas)-----------');
+
+const objk = {savybe1: 'igas', savybe2: 'aukstas', savybe3: 'grazus', savybe4: 60, arrk: [1, 2, 3, 4, 5, 6]};
+
+objk.coloras = 'Darkgreen';
+objk.vidobj = {a: 1, b: 2, c:3, d: 4, e: 5}
+
+console.log('gilyn i objekta: ', objk.vidobj.c);
+console.log('kreipimasis i savybe kurios nera: ', objk.vidobj.bb);
+
+console.log(objk);
+
+for (const i in objk) {
+    console.log(i, objk[i]);
+        
+    }
+
