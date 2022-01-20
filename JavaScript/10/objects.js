@@ -65,17 +65,17 @@ for ( let i in obj) {
 
 console.log('-------OBJEKTAI IR JU SAVYBES----------');
 
-const A = 'As esu stringas';
+const ASAV = 'As esu stringas';
 
-const B = new String('As irgi esu stringas');
+const BSAV = new String('As irgi esu stringas');
 
 
 
-console.log(A, typeof A, A.length);
-console.log(B, typeof B, B.length, B.indexOf('i'));
+console.log(ASAV, typeof ASAC, ASAV.length);
+console.log(BSAV, typeof BSAV, BSAV.length, BSAV.indexOf('i'));
 
-let V1 = '*** ' + A + ' ***';
-let V2 = `*** ${A} ***`;
+let V1 = '*** ' + ASAV + ' ***';
+let V2 = `*** ${ASAV} ***`;
 
 
 console.log(V1);
