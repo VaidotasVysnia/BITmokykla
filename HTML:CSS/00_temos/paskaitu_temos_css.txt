@@ -37,7 +37,7 @@
 028-20210508_122625 - I workshopo pristatymas - 2 dalis.mp4
 029-20210510_180449 - FlexBox.mp4
 030-20210511_180815 - HTML semantika.mp4
-031-20210512_151824 - img tag, srcset attribute, lazy loading, video tag, svg tag.mp4
+031-20210512_151824 - img tag, srcset attribute, lazy loadxg, video tag, svg tag.mp4
 032-20210513_182625 - CSS kintamieji.mp4
 033-20210514_180310-HTML forms.mp4
 034-20210515_070753 CSS funkcijos I dalis.mp4

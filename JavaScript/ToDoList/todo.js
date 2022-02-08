@@ -19,7 +19,7 @@ class ToDoList {
 
 }
 
- 
+
 
 const l1 = new ToDoList(CREATED);
 const l2 = new ToDoList(PROGRESS);
@@ -38,3 +38,7 @@ console.log(l1.getUid());
 console.log(l1.getUid());
 
 //26:30
+
+const arajus = [1, 2, 3, 4]
+arajus.splice(1,1)
+console.log(arajus);
