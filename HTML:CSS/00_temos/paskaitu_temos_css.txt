@@ -15,7 +15,7 @@
 011-20210417_100413-Meeting Recording1 Float išdėstymas.mp4
 011-20210417_121724-Meeting Recording2 Float išdėstymas, meniu kūrimas.mp4
 012-20210419_180831-Darbų su float layout'u peržiūra.mp4
-013-20210420_180235-selektoriai, atributų selektoriai,  matavimo vienetai, img kėlimas į backgroundą.mp4
+013-20210420_180235-selektoriai, atributų selektoriai,  matavimo vienbetai, img kėlimas į backgroundą.mp4
 014-20210421_180302-Media queries - media ir grido pritaikymas įvairiems ekranams.mp4
 015-20210422_180326-responsive layout, puslapio grido kūrimas.mp4
 016-20210423_180534-Iš šono išlendantis meniu su css.mp4

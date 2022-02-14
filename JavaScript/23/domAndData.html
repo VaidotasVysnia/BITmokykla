@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js" defer></script>
     <style>
-        .ch5 {
-            display: block;
+        h1 {
+            margin: 10px;
+        }
+        hr {
+            margin: 4px;
         }
         h4 {
             margin: 0;
         }
-
+        h1{
+            text-transform: uppercase;
+        }
+        h3 {
+            display: inline;
+        }
 
     </style>
     <title>DOM & Data</title>
 </head>
 <body>
     <!-- 1///////////////////////// -->
-    <h4>1 uzd.</h4>
-    <input type="text">
+    <h4 id="_1">1 uzd.</h4>
+    <input id="uzd1" type="text">
     <button>1.uzd</button>
     <hr>
     <!-- 2///////////////////////// -->
-    <h4>2 uzd.</h4>
+    <h4 id="_2">2 uzd.</h4>
     <select name="" id="">
         <option value="" selected disabled>-----</option>
         <option value="rytas">Rytas</option>
@@ -33,7 +41,7 @@
     </select>
     <hr>
     <!-- 3///////////////////////// -->
-    <h4>3 uzd.</h4>
+    <h4 id="_3">3 uzd.</h4>
     <input name="name3" class="uzd3" type="radio" value="rytas" id="rytas">
     <label for="rytas">Rytas</label>
     <input name="name3" class="uzd3" type="radio" value="diena" id="diena">
@@ -42,26 +50,49 @@
     <label for="vakaras">Vakaras</label>
     <hr>
     <!-- 4///////////////////////// -->
-    <h4>4 uzd.</h4>
+    <h4 id="_4">4 uzd.</h4>
     <input type="checkbox" id="r4">
     Ketvirtas
     <hr>
     <!-- 5///////////////////////// -->
-    <h4>5 uzd.</h4>
-    <div class='ch5'>
+    <h4 id="_5">5 uzd.</h4>
+  
     <input type="checkbox" value='rytas' class='ch51' id="r51">
     <label for="r51">Labas rytas</label>
-</div>
-<div class='ch5'>
+
+
     <input type="checkbox" value='diena' class='ch51' id="r52">
     <label for="r52">Laba diena</label>
-</div>
-    <div class='ch5'>
+
+   
     <input type="checkbox" value='vakaras' class='ch51' id="r53">
     <label for="r53">Labas vakaras</label>
-</div>
+
 <hr>
-<!-- 5///////////////////////// -->
-<h4>6 uzd.</h4>
+<!-- 6///////////////////////// -->
+<h4 id="_6">6 uzd.</h4>
+<h1></h1>
+<hr>
+<!-- 7///////////////////////// -->
+<h4 id="_7">7 uzd.</h4>
+<hr>
+<!-- 8///////////////////////// -->
+<h4 id="_8">8 uzd.</h4>
+<hr>
+<!-- 9///////////////////////// -->
+<h4 id="_9">9 uzd.</h4>
+<button id="_91">GO</button>
+<hr>
+<!-- 10///////////////////////// -->
+<h4 id="_100">10 uzd.</h4>
+<button id="_10">RESET</button>
+<hr>
+<!-- 11///////////////////////// -->
+<h4 id="_110">11 uzd.</h4>
+<button id="_11">CLEAR</button>
+<hr>
+<!-- 12///////////////////////// -->
+<h4 id="_120">12 uzd.</h4>
+<button id="_12">Go JSON</button>
 </body>
 </html>
