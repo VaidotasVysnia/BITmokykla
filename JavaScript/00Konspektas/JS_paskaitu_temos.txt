@@ -13,3 +13,17 @@
 13
 14
 15 JS klases, DOM pradzia
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27 Local Storage
+28 To Do list intro. arr.map,  buble sort,  events ('DOMContentLoaded')
+29 Resize event

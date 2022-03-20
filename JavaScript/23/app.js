@@ -104,7 +104,7 @@ obj8.ar2 = [];
 obj8.ar3 = [];
 obj8.ar4 = [];
 obj8.ar5 = [];
-console.log(obj8);
+// console.log(obj8);
 
 console.log('--- 9 ---');
 // 9. Padaryti mygtuką “GO”, kurį paspaudus, naudojant masyvus, gautus 8 uždavinyje, dinamiškai, iš tų masyvų duomenų, 
@@ -178,7 +178,24 @@ console.log('--- 12 ---');
 const goJson = document.querySelector("#_12")
 
 goJson.addEventListener('click', ()=> {
-let obj8str = JSON.stringify(obj8)
+    //1 sukisam i obj
+    //2 sustringifajinam
+    let obj8str = JSON.stringify(obj8)
+    //3 isvedam i konsole
     console.log(obj8str);
+    //4 atverciam atgal objektu
+    let obj8obj = JSON.parse(obj8str)
+    console.log(obj8obj);
+    //5 sukuriam h3 tagus is isparsinto objekto
+    for (const prop in obj8obj){
+    console.log(prop);
+    obj8obj[prop].forEach((e)=> {
+        console.log(e);
 
+        const textN = document.createTextNode(e);
+        const element = document.createElement('h3');
+        element.appendChild(textN);
+        document.querySelector('#sp12').appendChild(element);
+    })
+}
 }) 
